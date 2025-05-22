@@ -1,0 +1,95 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Container */
+.app-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Input + Button */
+input[type="text"] {
+  width: 75%;
+  padding: 0.75rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+/* To-do List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #e74c3c;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
+
+/* Status messages */
+.status {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.success {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.error {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
