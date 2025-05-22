@@ -11,10 +11,10 @@ DB_PASSWORD=yourpassword
 3. Initialize Database
 Make sure your SQL server is running. Then run migrations or sync your models.
 4. Start Backend Server
-bash
-Copy
-Edit
-npm start
+GET /todos – Fetch all todos.
+POST /todos – Add a new todo.
+DELETE /todos/:id – Delete a todo.
+POST /summarize – Summarize todos and send to Slack was done by Node.js
 
 SLACK AND LLM SET UP GUIDANCE
 To set up LLM , sign in to your OpenAI account and generate an API key. Add this key to your .env file. The backend supports models  and you can adjust the prompt used for summaries as needed.
