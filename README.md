@@ -15,7 +15,6 @@ bash
 Copy
 Edit
 npm start
-The backend will run on http://localhost:5000.
 SLACK AND LLM SET UP GUIDANCE
 To set up LLM , sign in to your OpenAI account and generate an API key. Add this key to your .env file. The backend supports models  and you can adjust the prompt used for summaries as needed.
 For Slack integration, navigate to the Slack API page and create a new Incoming Webhook for the channel where you want summaries posted. Copy the generated webhook URL and paste it into your .env file.
